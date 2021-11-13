@@ -2,7 +2,7 @@ import { Footer } from '../components/'
 
 export const FooterContainer = ({ children, ...restProps }) => {
     return (
-        <Footer>
+        <Footer {...restProps}>
             <Footer.Title>Questions? Contact us.</Footer.Title>
             <Footer.Break />
             <Footer.Row>

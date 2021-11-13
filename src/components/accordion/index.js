@@ -27,7 +27,7 @@ Accordion.Item = function AccordionItem({ children, ...restProps }) {
 }
 
 Accordion.Body = function AccordionBody({ children, ...restProps }) {
-    const { toggle, setToggle } = useContext(accordionContext);
+    const { toggle } = useContext(accordionContext);
 
     return <Body {...restProps} className={toggle ? 'open' : 'closed'} >
         <span>
