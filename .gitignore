@@ -19,6 +19,3 @@
 .env.production.local
 
 npm-debug.log*
-
-/public/images
-/public/videos
